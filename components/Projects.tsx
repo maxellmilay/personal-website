@@ -1,11 +1,16 @@
 import React from 'react'
-import SectionContainer from './SectionContainer'
-import { Typography } from '@mui/material'
+import SectionContainer from './general/SectionContainer'
+import { Typography, Grid } from '@mui/material'
+import Project from './projects/Project'
 
 export default function Projects() {
     return (
         <SectionContainer title="Projects">
-            <Typography>Project Content</Typography>
+            <Grid container item justifyContent='space-evenly' sx={{ marginTop: '2rem' }}>
+                <Project></Project>
+                <Project></Project>
+            </Grid>
+
         </SectionContainer>
     )
 }
