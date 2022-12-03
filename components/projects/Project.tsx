@@ -18,7 +18,8 @@ const ProjectContainer = styled(Grid)(({ theme }) => ({
     backgroundColor: "white",
     borderRadius: '0.75rem',
     boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-    padding: '2.5rem 0.5rem'
+    padding: '2.5rem 0.5rem',
+    margin: '1rem 0'
 }))
 
 export default function Project({ name, description, photoURL, link }: ProjectPropsInterface) {

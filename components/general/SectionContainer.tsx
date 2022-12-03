@@ -21,7 +21,7 @@ export default function SectionContainer({ children, title }: SectionContainerPr
     return (
         <StyledSectionContainer container item direction="column" color="#FEFCF3">
             <Grid container item justifyContent='center'>
-                <Typography variant="h4" sx={{ marginTop: '2rem' }}>{title}</Typography>
+                <Typography variant="h4" sx={{ marginTop: '2rem', textAlign: 'center' }}>{title}</Typography>
             </Grid>
             {children}
         </StyledSectionContainer>
