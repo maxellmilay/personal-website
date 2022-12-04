@@ -24,10 +24,10 @@ const ExperienceContainer = styled(Grid)(({ theme }) => ({
 export default function Experience({ award, contest, date, photoURL, contribution }: ExperiencePropsInterface) {
     return (
         <ExperienceContainer container item>
-            <Grid container item md={6} justifyContent="center" sx={{ borderRight: 'solid 1px #DCDCDC' }}>
+            <Grid container item md={6} justifyContent="center" sx={{ borderRight: 'solid 1px #DCDCDC', borderBottom: 'solid 1px #DCDCDC' }}>
                 <Image src={photoURL} alt="Experience Photo" style={{ margin: '1rem 0', width: "90%", height: 'auto' }} />
             </Grid>
-            <Grid container item md={6} direction="column" justifyContent="center" alignItems='center' sx={{ padding: '2rem' }}>
+            <Grid container item md={6} direction="column" justifyContent="center" alignItems='center' sx={{ padding: '1rem 2rem 2rem ' }}>
                 <Typography variant="h4" sx={{ marginBottom: '1rem' }}>{award}</Typography>
                 <Typography>{contest}</Typography>
                 <Typography sx={{ fontSize: '0.75rem', marginTop: '0.5rem' }}>{date}</Typography>

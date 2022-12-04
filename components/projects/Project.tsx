@@ -25,7 +25,7 @@ const ProjectContainer = styled(Grid)(({ theme }) => ({
 export default function Project({ name, description, photoURL, link }: ProjectPropsInterface) {
     return (
         <ProjectContainer container item alignItems='center' direction='column'>
-            <Image src={photoURL} alt="Project Photo" width={425} style={{ borderRadius: '0.5rem' }} />
+            <Image src={photoURL} alt="Project Photo" style={{ borderRadius: '0.5rem', width: '90%', height: 'auto' }} />
             <Typography variant="h5" sx={{ marginTop: '1rem' }}>{name}</Typography>
             <Typography sx={{ fontSize: '0.75rem', margin: '1rem 2rem', textAlign: 'justify' }}>{description}</Typography>
             <Link href={link} style={{ fontSize: '0.7rem' }}>{link}</Link>

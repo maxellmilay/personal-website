@@ -11,7 +11,7 @@ import { Grid } from "@mui/material"
 
 export default function Home() {
   return (
-    <Grid container direction="column" sx={{ width: "96%", margin: "0 2%" }}>
+    <Grid container direction="column" sx={{ width: "92%", margin: "0 4%" }}>
       <Head>
         <title>Maxell Milay</title>
       </Head>
