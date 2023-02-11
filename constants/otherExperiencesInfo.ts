@@ -11,7 +11,7 @@ const otherExperiencesList = [
     contribution: 'Lead Researcher',
   },
   {
-    award: 'Exellence in Innovation',
+    award: 'Excellence in Innovation',
     contest: 'Cognizant Einstein Hunt Global',
     date: 'January 2019',
     photoURL: cognizantImage,
