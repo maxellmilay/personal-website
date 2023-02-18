@@ -2,6 +2,7 @@ import concordImage from '../images/project/concord.png';
 import medataImage from '../images/project/medata.png';
 import datememeImage from '../images/project/datememe.png';
 import tmiImage from '../images/project/tmi.png';
+import cmscBlogImage from '../images/project/cmsc-blog.png';
 
 const projectList = [
   {
@@ -31,6 +32,13 @@ const projectList = [
       'TMI Fellowship is a blog website that showcases the activities and missions of a church.',
     photoURL: tmiImage,
     link: 'https://www.tmifellowship.org/',
+  },
+  {
+    name: 'CMSC Blog',
+    description:
+      'CMSC Blog contains anecdotes and informational blogs revolving around technology and the life of computer science majors.',
+    photoURL: cmscBlogImage,
+    link: 'https://cmsc-blog.vercel.app/',
   },
 ];
 
